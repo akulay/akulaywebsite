@@ -1,3 +1,27 @@
-#header {
-    height: 80px;
+::-webkit-scrollbar{
+    width: 13px;
 }
+
+::-webkit-scrollbar-thumb {
+    background: #242424;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #383838;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+#links {    
+    width: 50%;
+}
+
+#header {
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+

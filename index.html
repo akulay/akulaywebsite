@@ -2,21 +2,164 @@
 <html>
 <head>
     <title>AKULAY</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="style/global/global.css">
-    <link rel="stylesheet" media="screen and (min-width: 750px)" href="style/global/glbl-desk-s.css">
+    <link rel="stylesheet" media="screen and (min-width: 1000px)" href="style/global/glbl-desk-s.css">
+    <link rel="stylesheet" media="screen and (max-width: 1000px) and (min-width: 750px)" href="style/global/glbl-tablet-s.css">
     <link rel="stylesheet" media="screen and (max-width: 750px)" href="style/global/glbl-mobile-s.css">
+    <link rel="stylesheet" href="style/index/index-glbl-s.css">
+    <link rel="stylesheet" media="screen and (min-width: 1000px)" href="style/index/index-desk-s.css">
+    <link rel="stylesheet" media="screen and (max-width: 1000px) and (min-width: 750px)" href="style/index/index-tablet-s.css">
+    <link rel="stylesheet" media="screen and (max-width: 750px)" href="style/index/index-mobile-s.css">
+    <link rel="icon" type="image/x-icon" href="img/akulaysiyahlogo.png">
+
 </head>
 <body>
 <div id="header">
-    <div>
-        EL-AKULAY
+    <a id="lg-area" href="index.html">
+        <div><img id="logo" src="img/akulaysiyahlogo.png" width="60px" height="60px"></div>
+        <div id="akulay"><img src="img/akulaybeyazyazi.png" width="80px"></div>
+    </a>
+    <div id="links"> 
+        <a class="lnk-chld">Ana Sayfa</a>
+        <a class="lnk-chld">Programlama</a>
+        <a class="lnk-chld">Tasarım</a>
+        <a class="lnk-chld">Haberler</a>
+        <a class="lnk-chld">Sosyal Medya</a>
+    </div>
+</div>
+
+    <div style="width: 100%; height: 80px;"></div>
+    <div id="content">
+        <div id="part0" class="part">
+            ÇOK YAKINDA BURADAYIZ
+        </div>
+        <div id="part1" class="part">
+            <div class="slide-cntnr">
+                <div class="slide">
+                    <img id="sldimg1" class="sldimg" src="img/imagenf.jpg" width="100%">
+                    <div class="sldtxt">Æ  Æ  Æ  Æ  Æ  Æ  Æ  Æ</div>
+                </div>
+                <div class="slide">
+                    <div class="sldtxt">Æ  Æ  Æ  Æ  Æ  Æ  Æ  Æ</div>
+                    <img id="sldimg2" class="sldimg" src="img/imagenf.jpg" width="100%">
+                </div>
+                <div class="slide">
+                    <div class="sldtxt">Æ  Æ  Æ  Æ  Æ  Æ  Æ  Æ</div>
+                    <img id="sldimg3" class="sldimg" src="img/imagenf.jpg" width="100%">
+                </div>
+                <div class="slide">
+                    <div class="sldtxt">Æ  Æ  Æ  Æ  Æ  Æ  Æ  Æ</div>
+                    <img id="sldimg4" class="sldimg" src="img/imagenf.jpg" width="100%">
+                </div>
+                <span class="prev" onclick="plusSlides(-1)"><img src="img/left-arrow.png" width="20px"></span>
+                <div id="dot1" class="dots" onclick="currentSlide(1)"><img src="img/black-circle.png" width="20px"></div>
+                <div id="dot2" class="dots" onclick="currentSlide(2)"><img src="img/black-circle.png" width="20px"></div>
+                <div id="dot3" class="dots" onclick="currentSlide(3)"><img src="img/black-circle.png" width="20px"></div>
+                <div id="dot4" class="dots" onclick="currentSlide(4)"><img src="img/black-circle.png" width="20px"></div>
+                <span class="next" onclick="plusSlides(1)"><img src="img/right-arrow.png" width="20px"></span>
+            </div>
+        </div>
+
+        <div id="part2" class="part">
+            <div class="prmt-cntnr">
+                <div class="prmt-chld">
+                    <div class="topic">Biz Kimiz</div>
+                    <div class="para">Biz ortak amaçlar doğrultusunda bir araya gelen bir içerik üretici ve geliştirici topluluğuyuz. Farklı alanlarda yetkin üyeler ile farklı proje girişimlerinde bulunuyoruz.</div>
+                </div>
+                <div class="prmt-chld">
+                    <div class="topic">Amacımız</div>
+                    <div class="para">Robotik, elektronik, uygulama, oyun, web geliştirme alanlarında projeler; teknoloji haberleri, geliştirici ipuçları, fotoğrafçılık alanlarında içerik üretmek ve yetkin olduğumuz alanları genişletmek amaçlarımız arasında.</div>
+                </div>
+                <div class="prmt-chld">
+                    <div class="topic">İletişim</div>
+                    <div class="para">
+                        <a class="atag" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzBWPFmtHmpzQPCtMBrkflpXrxKrRvxvGGgjMnZXHntqxgPhJCDqXsZrJXzrkKKKNjWxCXq"><img class="scmd-img" src="img/envelope.png" width="17px"><div>takimakulay@gmail.com</div></a>
+                        <a class="atag" href="https://www.instagram.com/digitalakulay/?hl=tr"><img class="scmd-img" src="img/instagram.png" width="17px"><div>@digitalakulay</div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="part3" class="part">
+            <div class="title">Takımımız</div>
+            <div id="tm-area">
+                <div class="tm-mmbr" id="frst">
+                    <img class="admn-image" src="img/imagenf.jpg" width="100px" height="100px">
+                    <div class="topic">Samet Ali Demir</div>
+                    <div class="para">Web geliştirme ve robotik bilgisine sahip olan Samet, çizim ve fotoğrafçılığa ilgi duyuyor. Bu işlere basit kodlamalarla başlayan Samet, aynı zamanda websitemizin geliştiricisi.</div>
+                    <div class="mmbr-lnks">
+                        <a href=""><img class="scmd-img" src="img/instagram.png" width="30px" height="30px"></a>
+                        <a href=""><img class="scmd-img" src="img/envelope.png" width="30px" height="30px"></a>
+                        <a href=""><img class="scmd-img" src="img/imagenf.jpg" width="30px" height="30px"></a>
+                    
+                    </div>
+                </div>
+                <div class="tm-mmbr" id="scnd">
+                    <img class="admn-image" src="img/imagenf.jpg" width="100px" height="100px">
+                    <div class="topic">Mehmet Emir Karakurt</div>
+                    <div class="para">Tasarım ve fotoğrafçılığa ilgisi olan Mehmet, teknolojik yenilikleri yakından takip etmeyi sever. Ayrıca mobil uygulama geliştirme üzerine de bolca deneyime sahip. Hobi amacıyla uğraştığı ilgi alanlarıyla şimdi takımımızın sosyal medya sayfalarına içerik üretmekte.</div>
+                    <div class="mmbr-lnks">
+                        <a href=""><img class="scmd-img" src="img/instagram.png" width="30px" height="30px"></a>
+                        <a href=""><img class="scmd-img" src="img/envelope.png" width="30px" height="30px"></a>
+                        <a href=""><img class="scmd-img" src="img/imagenf.jpg" width="30px" height="30px"></a>
+                    
+                    </div>
+                </div>
+                <div class="tm-mmbr" id="thrd">
+                    <img class="admn-image" src="img/imagenf.jpg" width="100px" height="100px">
+                    <div class="topic">Muhammet Yusuf Kavaklı</div>
+                    <div class="para">Oyun ve uygulama geliştirme alanlarına ilgili olan Yusuf, hobi amacıyla başladığı bu alanda bilgisini boş vakitlerinde bolca arttırdı. Takımda içerik üretmenin yanında veri edinme ve raporlama alanlarında da görev almakta.</div>
+                    <div class="mmbr-lnks">
+                        <a href=""><img class="scmd-img" src="img/instagram.png" width="30px" height="30px"></a>
+                        <a href=""><img class="scmd-img" src="img/envelope.png" width="30px" height="30px"></a>
+                        <a href=""><img class="scmd-img" src="img/imagenf.jpg" width="30px" height="30px"></a>
+                    
+                    </div>
+                </div>
+                <div class="tm-mmbr" id="frth">
+                    <img class="admn-image" src="img/imagenf.jpg" width="100px" height="100px">
+                    <div class="topic">İsmail Enes Küçük</div>
+                    <div class="para">Yazılım ve robotiğe ilgili olan İsmail, elektronik ve tasarım alanlarında bilgi sahibidir. Yazılımla ilk olarak okulda katıldığı projelerle tanışan İsmail şimdi tüm projelerimizde her konuda görev alabilecek nitelikte.</div>
+                    <div class="mmbr-lnks">
+                        <a href=""><img class="scmd-img" src="img/instagram.png" width="30px" height="30px"></a>
+                        <a href=""><img class="scmd-img" src="img/envelope.png" width="30px" height="30px"></a>
+                        <a href=""><img class="scmd-img" src="img/imagenf.jpg" width="30px" height="30px"></a>
+                    
+                    </div>
+                </div>
+            </div>
+        </div> 
+    
+    
+    
+    
+    </div>
+
+
+<div id="bottom-menu">
+    <div class="bttm-chld">
+        İletişim<br>
+        takimakulay@gmail.com<br>
+        instagram<br>
+    </div>
+    <div class="bttm-chld">
+        Anasayfa<br>
+        Programlama<br>
+        Tasarım<br>
+        Haberler<br>
+        Sosyal Medya <br>
+        Hakkımızda<br>
     </div>
 </div>
 
 
 
 
+
+
+<script src="js/global.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>

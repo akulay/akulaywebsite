@@ -1,0 +1,8 @@
+#links {    
+    width: 61%;
+}
+
+#header {
+    justify-content: space-between;
+    flex-direction: row;
+}

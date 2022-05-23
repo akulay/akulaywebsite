@@ -1,0 +1,25 @@
+#part0 {
+    font-size: 100px;
+}
+
+
+.prmt-cntnr {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.prmt-chld {
+    width: 43%;
+}
+
+
+#tm-area {
+    flex-wrap: wrap;
+}
+.tm-mmbr {
+    width: 43%;
+}
+
+
+.slide-cntnr {
+    width: 92%;
+}

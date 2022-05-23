@@ -1,0 +1,20 @@
+#part0 {
+    font-size: 65px;
+}
+
+
+.prmt-cntnr {
+    flex-direction: column;
+    justify-content: center;
+}
+.prmt-chld {
+    width: 94%;
+}
+
+
+#tm-area {
+    flex-direction: column;
+}
+.tm-mmbr {
+    width: 94%;
+}
